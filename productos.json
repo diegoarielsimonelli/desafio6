@@ -1,0 +1,6 @@
+[{"nombre":"Empanada de Carne", "precio":120, "thumbnail":"http://.jpg","id":1 },
+
+    {"nombre":"Empanada de Pollo", "precio":110, "thumbnail":"http://.jpg","id":2 },
+    
+    {"nombre":"Empanada de Capresse", "precio":105, "thumbnail":"http://.jpg","id":3 }]
+
