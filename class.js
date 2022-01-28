@@ -59,7 +59,8 @@ class Contenedor {
         try {
             const contenido = await fs.promises.readFile(`./${this.nombreArchivo}`,'utf-8');
             const listaDeProductos = JSON.parse(contenido);
-            return console.log('Todos los productos disponibles: ',listaDeProductos);
+            console.log('Todos los productos disponibles: ',listaDeProductos)
+            return listaDeProductos;
         }
         catch (error){
             console.error('No se puede mostrar la lista de productos',error)
